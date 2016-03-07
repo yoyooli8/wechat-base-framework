@@ -1,0 +1,126 @@
+.dh_input {
+	border: none;
+	height: 100%;
+	width: 100%;
+}
+.dh_normal_body{
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: black;
+}
+/* 字体样式 加粗 */
+.dh_fontweight {
+	font-weight: bold;
+}
+.dh_login_body {
+	background-color: #EEEEEE;
+}
+.dh_body_user_info {
+	margin: 10px;
+	background-color: black;
+}
+.dh_radius{
+	border-radius:10px;
+}
+.dh_list-group-item {
+  position: relative;
+  display: block;
+  background-color: #000000;
+  border-top: 1px solid red;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.dh_camera_list{
+  position: relative;
+  background-color: #000000;
+  border-top: 1px solid red;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+}
+.badge{
+	border-radius:100px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: gray;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+}
+.dh_gray_table_inner{
+	width: 100%;
+	font-size: xx-small;
+	border-left: none;
+}
+.dh_gray_table_inner td{
+	vertical-align: middle;
+	border: 1px solid gray;
+}
+.dh_gray_table{
+	width: 100%;
+	font-size: xx-small;
+}
+.dh_gray_table td{
+	vertical-align: middle;
+	padding: 5px;
+	padding-left: 8px;
+	border:1px solid gray;
+}
+.badge-sm{
+	border-radius:100px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: gray;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:1px;
+	padding-bottom:1px;
+	font-size: 10px;
+	color: white;
+}
+.dh_camera_list span:first-child{
+	color: white;
+	font-size: 15px;
+}
+.dh_camera_list tr{
+	border-top: 1px solid red;
+}
+.dh_camera_list span:last-child{
+	color: white;
+	font-size: 10px;
+}
+.list-group .dh_camera_list td{
+	height:150px;
+	width: 50%;
+	padding-left: 15px;
+}
+.list-group .dh_camera_list img{
+	width: 100%;
+}
+.dh_camera_list:last-child{
+	border-bottom: 1px solid red;
+}
+
+.dh_list-group-item {
+  position: relative;
+  display: block;
+  background-color: #000000;
+  border-top: 1px solid red;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.dh_list-group-item:last-child{
+	border-bottom: none;
+}
+.dh_user_info_font{
+	font-size: 15px;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: bold;
+}

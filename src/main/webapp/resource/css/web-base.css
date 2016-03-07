@@ -1,0 +1,388 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	background: #955e05 url("../image/bg-body.png");
+	background-size: cover;
+	max-width: 640px;
+	margin: 0 auto;
+}
+.product-detail {
+	width: 230px;
+	height: 230px;
+	background-size: cover;
+	margin: 0 auto 10px auto;
+	background: url("../image/detail_product_bg.png") top center no-repeat;
+	text-align: center;
+	position: relative;
+	background-size:contain;
+}
+
+.detail-deco {
+	position: absolute;
+	width: 230px;
+	height: 230px;
+	bottom: 0px;
+	left: 0px;
+}
+
+.detail-pic {
+	width: 160px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	top: 46px;
+}
+
+#detail-title {
+	color: #f0af3c;
+	text-align:center;
+	font-size: 20px;
+	background: url("../image/line.png") bottom center no-repeat;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+
+#detail-subtitle {
+	color: #f0af3c;
+	text-align:center;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.detail-inc {
+	color: #f0af3c;
+	margin: 10px 20px;
+	line-height: 1.3em;
+	text-align:center;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.detail-btn {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.detail-btn a {
+	display: inline-block;
+	width: 38%;
+	margin: 0 2%;
+}
+
+.detail-btn a img {
+	width: 100%;
+}
+
+.score-echo {
+	margin: 100px 30px 15px 30px;
+}
+.score-list{
+	padding-left: 50px;
+	margin-bottom: 10px;
+}
+.score-list li {
+	line-height: 2em;
+	color: #ffd890;
+}
+
+.score-list li span {
+	color: #f0af3c;
+}
+
+.score-list img {
+	display: inline-block;
+	margin-right: 10px;
+	width: 18px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.score-body {
+	background: url("../image/line.png") top center no-repeat;
+	padding: 15px 20px 30px 20px;
+	color: #f0af3c;
+}
+
+.score-body h1 {
+	text-align: center;
+	color: #f0af3c;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.score-body h2 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.score-body li {
+	color: #f0af3c;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.score-body li p {
+	line-height: 1.5em;
+	text-indent: 2em;
+}
+
+.score-echo-list {
+	padding: 100px 0;
+}
+
+.score-echo-list h1 {
+	color: #f0af3c;
+	text-align:center;
+	font-size: 20px;
+	pading-bottom: 10px;
+}
+
+.score-table-show {
+	width: 100%;
+	padding: 20px 0;
+	background: url("../image/paihangbanghuabian.png") top center no-repeat;
+}
+
+.score-table {
+	width: 100%;
+	padding: 0 20px;
+}
+
+.score-table td {
+	/* width: 33%; */
+	text-align: left;
+	font-size: 13px;
+	line-height: 2em;
+	color: #f0af3c;
+}
+
+.score-table td img {
+	width: 20px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.score-num {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	line-height: 20px;
+	text-align: center;
+	color: #955e05;
+	font-size: 12px;
+	background: url("../image/paimingdi.png") center center no-repeat;
+	background-size: cover;
+	margin-right: 5px;
+}
+
+#product-deco {
+	position: absolute;
+	left: 0;
+	margin-top: 62px;
+	width: 155px;
+	height: 270px;
+}
+
+#product-deco img {
+	width:100%;
+}
+
+#control-top {
+	float: right;
+	width: 200px;
+	background: url('../image/shang_bg.png') bottom center no-repeat;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	margin: 0px 0 10px 0;
+	padding-bottom: 5px;
+}
+
+#control-bottom {
+	float: right;
+	width: 240px;
+	background: url('../image/xia_bg.png') top center no-repeat;
+	text-align: center;
+	display: block;
+	padding-top: 12px;
+}
+
+#control-top img {
+	width: 50px;
+	height: 30px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+	-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform: rotate(180deg);
+}
+
+#control-bottom img {
+	width: 50px;
+	height: 30px;
+	margin-left: 40px;
+}
+.product-list {
+	margin: 0 0 0 37%;
+	padding-top: 40px;
+	max-width: 150px;
+	height:320px;
+	display: none;
+	position: relative;
+}
+.nev_ca{
+	text-align: center;
+	float: right;
+	margin-right: -20px;
+	padding-top: 30px;
+}
+.nev_ca span{
+	width: 10px;
+	height: 10px;
+	background-color: #CCFF99;
+	display: inline-block;
+}
+.product-list li {
+	clear: both;
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+	margin-left: 100%;
+	display: list-item;
+	margin-left: 0px;
+}
+
+.product-list li:nth-child(2) {
+	left: 30px;
+}
+
+.product-list li:nth-child(3) {
+	left: 50px;
+}
+
+.product-list li:nth-child(4) {
+	left: 30px;
+}
+
+.product-list li img {
+	width: 35px;
+	margin-right: 10px;
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+}
+
+.product-list li a {
+	width: 72%;
+	font-size: 13px;
+	color: #f0af3c;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 10px;
+	text-decoration: none;
+}
+
+/**
+积分兑换页面样式
+**/
+.exchange-body {
+	background: url("../image/line.png") top center no-repeat;
+	padding: 15px 20px 20px 20px;
+	padding-top:10px;
+	margin:0 auto;
+}
+
+.exchange-body h1 {
+	text-align: center;
+	color: #f0af3c;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.sm_body{
+	max-width: 640px;
+}
+.sm_body h1{
+	text-align: center;
+	color: #f0af3c;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.sm_head{
+	width: 100%;
+}
+.exchange-body h2 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.exchange-body li {
+	color: #f0af3c;
+	font-size: 14px;
+	margin-bottom: 5px;
+	line-height: 2em;
+}
+
+.exchange-body li span {
+	color: #f0af3c;
+	display: inline-block;
+	vertical-align: middle;
+}
+.exchange-body li p {
+	line-height: 1.5em;
+	text-indent: 2em;
+}
+
+.exchange-body li img{
+	width:150px; 
+	height:70px;
+	display: inline-block;
+	vertical-align: middle; 
+	margin-right:20px;
+}
+
+.message{
+	width:250px;
+	height:30px;
+	color:#f0af3c;
+	line-height:29px;
+	padding-left:10px;
+	margin:0 auto;
+	/* display:none; */
+}
+
+.button{
+	width:80px;
+	height: 36px;
+	margin-top: 4px;
+	color:#000000;
+	border: 1px solid #955e05;
+	border-radius:5px;
+	background:#f0af3c;
+	padding:5px;
+	cursor:pointer;
+}
+
+.disable{
+	width:80px;
+	height: 36px;
+	margin-top: 4px;
+	color:#000000;
+	border: 1px solid #955e05;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	background:#AAAAAA;
+	padding:5px;
+}
+.dz-ul span{
+	float: right;
+	margin-right: 10px;
+}

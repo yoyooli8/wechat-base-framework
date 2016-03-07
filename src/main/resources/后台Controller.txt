@@ -1,0 +1,301 @@
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/article//imagetypelist","/article//imagetypelist","/article//imagetypelist",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/article//imagelist","/article//imagelist","/article//imagelist",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/article/save","/3ti/article/save","/3ti/article/save",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/article/delete","/3ti/article/delete","/3ti/article/delete",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/article/process","/3ti/article/process","/3ti/article/process",0,0);
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/creditsStrategy/add","/creditsStrategy/add","/creditsStrategy/add",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/creditsStrategy/list","/creditsStrategy/list","/creditsStrategy/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/creditsStrategy/save","/creditsStrategy/save","/creditsStrategy/save",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/creditsStrategy/delete","/creditsStrategy/delete","/creditsStrategy/delete",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/creditsStrategy/edit","/creditsStrategy/edit","/creditsStrategy/edit",0,0);
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/gift/list","/gift/list","/gift/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/gift/process","/gift/process","/gift/process",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/gift/saveGift","/gift/saveGift","/gift/saveGift",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/gift/goCreate","/gift/goCreate","/gift/goCreate",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/gift/delete","/gift/delete","/gift/delete",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/gift/updateGiftStatus","/gift/updateGiftStatus","/gift/updateGiftStatus",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/gift/exchangeGift","/gift/exchangeGift","/gift/exchangeGift",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/giftlog/delete","/giftlog/delete","/giftlog/delete",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/giftlog/list","/giftlog/list","/giftlog/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/giftlog/updateStatus","/giftlog/updateStatus","/giftlog/updateStatus",0,0);
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/type//add","/type//add","/type//add",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/type//list","/type//list","/type//list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/type//checkImgNameExist","/type//checkImgNameExist","/type//checkImgNameExist",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/type//delete","/type//delete","/type//delete",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/type//process","/type//process","/type//process",0,0);
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/menu/save","/menu/save","/menu/save",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/menu/index","/3ti/menu/index","/3ti/menu/index",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/menu/delete","/3ti/menu/delete","/3ti/menu/delete",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/menu/publish","/3ti/menu/publish","/3ti/menu/publish",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/menu/checkNameExist","/3ti/menu/checkNameExist","/3ti/menu/checkNameExist",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/menu/sInfo","/3ti/menu/sInfo","/3ti/menu/sInfo",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/menu/pInfo","/3ti/menu/pInfo","/3ti/menu/pInfo",0,0);
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/network/query","/network/query","/network/query",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/network/list","/network/list","/network/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/network/select","/network/select","/network/select",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/network/edit","/network/edit","/network/edit",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/network/delete","/network/delete","/network/delete",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/network/deleteAllNetwork","/network/deleteAllNetwork","/network/deleteAllNetwork",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/network/create","/network/create","/network/create",0,0);
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgNotification/list","/bgNotification/list","/bgNotification/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgNotification/delete","/bgNotification/delete","/bgNotification/delete",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgNotification/publish","/bgNotification/publish","/bgNotification/publish",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgNotification/process","/bgNotification/process","/bgNotification/process",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgNotification/processNotification","/bgNotification/processNotification","/bgNotification/processNotification",0,0);
+
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/create","/bgProduct/create","/bgProduct/create",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/selectLens","/bgProduct/selectLens","/bgProduct/selectLens",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/saveCamera","/bgProduct/saveCamera","/bgProduct/saveCamera",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/savePart","/bgProduct/savePart","/bgProduct/savePart",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/deletePart","/bgProduct/deletePart","/bgProduct/deletePart",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/deleteLens","/bgProduct/deleteLens","/bgProduct/deleteLens",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/saveLens","/bgProduct/saveLens","/bgProduct/saveLens",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/deleteCamera","/bgProduct/deleteCamera","/bgProduct/deleteCamera",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/deleteProduct","/bgProduct/deleteProduct","/bgProduct/deleteProduct",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/list","/bgProduct/list","/bgProduct/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/checkCameraNameExist","/bgProduct/checkCameraNameExist","/bgProduct/checkCameraNameExist",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/checkPartsNameExist","/bgProduct/checkPartsNameExist","/bgProduct/checkPartsNameExist",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/bgProduct/checkLensNameExist","/bgProduct/checkLensNameExist","/bgProduct/checkLensNameExist",0,0);
+
+
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/coder/create","/coder/create","/coder/create",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/coder/update","/coder/update","/coder/update",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/coder/deleteAllCoder","/coder/deleteAllCoder","/coder/deleteAllCoder",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/coder/save","/coder/save","/coder/save",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/coder/list","/coder/list","/coder/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/coder/insertCoder","/coder/insertCoder","/coder/insertCoder",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/coder/saveAs","/coder/saveAs","/coder/saveAs",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/coder/delete","/coder/delete","/coder/delete",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/coder/releaseCoder","/coder/releaseCoder","/coder/releaseCoder",0,0);
+
+
+
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/save","/3ti/resource/save","/3ti/resource/save",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/index","/3ti/resource/index","/3ti/resource/index",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/delete","/3ti/resource/delete","/3ti/resource/delete",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/create","/3ti/resource/create","/3ti/resource/create",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/process","/3ti/resource/process","/3ti/resource/process",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/checkNameExist","/3ti/resource/checkNameExist","/3ti/resource/checkNameExist",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/show","/3ti/resource/show","/3ti/resource/show",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/imageList","/3ti/resource/imageList","/3ti/resource/imageList",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/addImage","/3ti/resource/addImage","/3ti/resource/addImage",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/deleteImage","/3ti/resource/deleteImage","/3ti/resource/deleteImage",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/3ti/resource/image","/3ti/resource/image","/3ti/resource/image",0,0);
+
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/showImage/list","/showImage/list","/showImage/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/showImage/goAddImagePage","/showImage/goAddImagePage","/showImage/goAddImagePage",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/showImage/addImage","/showImage/addImage","/showImage/addImage",0,0);
+
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/picture/add","/picture/add","/picture/add",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/picture/list","/picture/list","/picture/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/picture/delete","/picture/delete","/picture/delete",0,0);
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/sigmaUser/list","/sigmaUser/list","/sigmaUser/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/sigmaUser/updateUser","/sigmaUser/updateUser","/sigmaUser/updateUser",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/sigmaUser/process","/sigmaUser/process","/sigmaUser/process",0,0);
+
+
+
+
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/webUser/list","/webUser/list","/webUser/list",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/webUser/updateUser","/webUser/updateUser","/webUser/updateUser",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/webUser/process","/webUser/process","/webUser/process",0,0);
+insert into tb_ms_cms_resource(resource_id,resource_name,resource_url,order_num,show_type) values("/webUser/updateStatus","/webUser/updateStatus","/webUser/updateStatus",0,0);
+
+
+
+
+
+
+
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/article//imagetypelist");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/article//imagelist");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/article/save");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/article/delete");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/article/process");
+
+
+
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/creditsStrategy/add");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/creditsStrategy/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/creditsStrategy/save");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/creditsStrategy/delete");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/creditsStrategy/edit");
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/gift/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/gift/process");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/gift/saveGift");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/gift/goCreate");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/gift/delete");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/gift/updateGiftStatus");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/gift/exchangeGift");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/giftlog/delete");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/giftlog/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/giftlog/updateStatus");
+
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/type//add");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/type//list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/type//checkImgNameExist");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/type//delete");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/type//process");
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/menu/save");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/menu/index");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/menu/delete");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/menu/publish");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/menu/checkNameExist");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/menu/sInfo");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/menu/pInfo");
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/network/query");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/network/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/network/select");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/network/edit");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/network/delete");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/network/deleteAllNetwork");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/network/create");
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgNotification/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgNotification/delete");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgNotification/publish");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgNotification/process");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgNotification/processNotification");
+
+
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/create");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/selectLens");
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/saveCamera");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/savePart");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/deletePart");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/deleteLens");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/saveLens");
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/deleteCamera");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/deletebgProduct");
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/checkCameraNameExist");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/checkPartsNameExist");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/bgProduct/checkLensNameExist");
+
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/coder/create");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/coder/update");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/coder/deleteAllCoder");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/coder/save");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/coder/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/coder/insertCoder");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/coder/saveAs");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/coder/delete");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/coder/releaseCoder");
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/save");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/index");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/delete");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/create");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/process");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/checkNameExist");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/show");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/imageList");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/addImage");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/deleteImage");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/3ti/resource/image");
+
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/showImage/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/showImage/goAddImagePage");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/showImage/addImage");
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/picture/add");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/picture/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/picture/delete");
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/sigmaUser/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/sigmaUser/updateUser");
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/sigmaUser/process");
+
+
+
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/webUser/list");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/webUser/updateUser");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/webUser/process");
+insert into tb_ms_cms_role_resource(role_id,resource_id) values(1,"/webUser/updateStatus");
+
+
+
+
+

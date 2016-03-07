@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+	<!-- DispatcherServlet Context: defines this servlet's request-processing 
+		infrastructure -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- set the max upload size100MB -->
+		<property name="maxUploadSize">
+			<value>104857600</value>
+		</property>
+		<property name="maxInMemorySize">
+			<value>4096</value>
+		</property>
+	</bean>
+	<!-- Scans within the base package of the application for @Components to 
+		configure as beans -->
+	<!-- @Controller, @Service, @Configuration, etc. -->
+	<context:component-scan base-package="com.xa3ti.business.controller" />
+
+
+
+
+	<!-- 将无法mapping到Controller的path交给default servlet handler处理 -->
+	<mvc:default-servlet-handler />
+	<!-- 解决json乱码 -->
+	<mvc:annotation-driven>
+		<mvc:message-converters register-defaults="true">
+			<bean class="org.springframework.http.converter.StringHttpMessageConverter">
+				<constructor-arg value="UTF-8" />
+			</bean>
+			<bean
+				class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+				<property name="objectMapper">
+					<bean
+						class="org.springframework.http.converter.json.Jackson2ObjectMapperFactoryBean">
+						<property name="failOnEmptyBeans" value="false" />
+					</bean>
+				</property>
+			</bean>
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+
+		<!--<mvc:interceptors>-->
+		<!--<mvc:interceptor>-->
+			<!--<mvc:mapping path="/sigmaUser/login" />-->
+			<!--<mvc:mapping path="/sigmaUser/loginSigmaUser" />-->
+			<!--<mvc:mapping path="/sigmaUser/showUserCenter" />-->
+			<!--<mvc:mapping path="/sigmaUser/showSigmaUserInfo" />-->
+			<!--<mvc:mapping path="/sigmaUser/toUpdateSigmaUser" />-->
+			<!--<mvc:mapping path="/sigmaUser/jumpSigmaUser" />-->
+			<!--<mvc:mapping path="/sigmaUser/selectUser" />-->
+			<!--&lt;!&ndash;<mvc:mapping path="/credits/qrCoder" />&ndash;&gt;-->
+
+			<!--<bean class="com.xa3ti.business.interceptor.CommonInterceptor"></bean>-->
+		<!--</mvc:interceptor>-->
+	<!--</mvc:interceptors>-->
+ <!--将无法mapping到Controller的path交给default servlet handler处理 -->
+	<mvc:default-servlet-handler />
+
+	<!-- 定义JSP文件的位置 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/page/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<!-- 定义无Controller的path<->view直接映射 <mvc:view-controller path="/" view-name="index"/> 
+		<mvc:view-controller path="/web/mashup-client" view-name="/web/mashup-client"/> -->
+
+
+	<bean
+		class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+		<property name="exceptionMappings">
+			<props>
+				<prop key="org.springframework.validation.BindException">error/400</prop>
+				<prop key="org.apache.shiro.authz.UnauthorizedException">error/403</prop>
+			</props>
+		</property>
+	</bean>
+	<!-- end -->
+
+
+
+</beans>
